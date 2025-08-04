@@ -1,0 +1,27 @@
+@import "nav.css";
+@import "hero.css";
+@import "footer.css";
+@import "contact.css";
+@import "button.css";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: white;
+    user-select: none;
+}
+.container {
+    max-width: 1280px;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 20px;
+}

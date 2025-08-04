@@ -1,0 +1,16 @@
+.prmry {
+   border: 2px solid black;
+   background-color: white;
+   border-radius: 5px;
+   color:black;
+   font-weight: bold;
+   width: 140px;
+   height: 20px;
+}
+button:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    border: 2px solid rgb(0, 255, 225);
+    box-shadow: 4px 4px 10px rgb(0, 255, 225);
+    color: gray;
+}

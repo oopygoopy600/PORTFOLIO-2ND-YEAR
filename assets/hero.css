@@ -1,0 +1,112 @@
+#hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 100px;
+    gap: 75px;
+    margin-bottom: 100px;
+}
+.hero-image img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+}
+.hero-image {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+.hero-title {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 800px;
+    bottom: 75px;
+    gap: 10px;
+}
+.hero-title h2{
+  background: linear-gradient(to right, #111, #555, #aaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+.hero-title h1 {
+    background: linear-gradient(to right, #444, #000); /* Dark gray to black */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.hero-title span {
+    color: yellow;
+}
+.hero-title p {
+    font-size: 20px;
+}
+.info {
+    font-weight: bold;
+}
+.icons {
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 500px;
+}
+.fa-facebook{
+    border: 2px solid gray;
+    object-fit: cover;
+    border-radius: 50%;
+    color: blue;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.fa-instagram {
+  background: linear-gradient(45deg,
+    rgb(131, 58, 180),
+    rgb(225, 48, 108),
+    rgb(247, 119, 55),
+    rgb(252, 175, 69),
+    rgb(64, 93, 230)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
+.fa-github{
+    color: black;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.fa-envelope {
+    color: black;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+.hero-image img:hover {
+    transform: scale(1.05);
+    border: 2px solid rgb(0, 255, 225);
+    box-shadow: 4px 4px 10px rgb(0, 255, 225);
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-brands:hover {
+    border: 2px solid rgb(0, 255, 225);
+    box-shadow: 4px 4px 10px rgb(0, 255, 225);
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.fa-regular:hover {
+    border: 2px solid rgb(0, 255, 225);
+    box-shadow: 4px 4px 10px rgb(0, 255, 225);
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,101 @@
+.skills{
+    font-size: 50px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 140px;
+    background: linear-gradient(to right, #676767, #000); /* Dark gray to black */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects{
+    padding-top: 20px;
+ font-size: 50px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: linear-gradient(to right, #676767, #000); /* Dark gray to black */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cards {
+    display: flex;
+    gap: 10px;            /* space between cards */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.card {
+    display: flex;
+    gap: 5px;
+    border: 2px solid gray;
+    justify-content: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 2px;
+}
+.card p {
+  background: linear-gradient(to right, #676767, #000); /* Dark gray to black */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-1 img{
+    height: 50px;
+    width: 50px;
+}
+.card-2 img{
+    height: 50px;
+    width: 50px;
+}
+.card-3 img{
+    height: 50px;
+    width: 50px;
+}
+.card-4 img{
+    height: 50px;
+    width: 50px;
+    
+}
+.proj {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-projects {
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 20px;
+    width:700px;
+    height: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+.card-projects img {
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+.card-projects p {
+    font-size: 15px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    border: 2px solid rgb(0, 255, 225);
+    box-shadow: 4px 4px 10px rgb(0, 255, 225);
+    cursor: pointer;
+}
+
+.copyright {
+    padding-left: 550px;
+    padding-top: 300px;
+}
+
+.card-projects:hover {
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
+    border: 2px solid rgb(0, 255, 225);
+    box-shadow: 4px 4px 10px rgb(0, 255, 225);
+}
